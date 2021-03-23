@@ -1,0 +1,95 @@
+.app {
+    padding: 10px;
+    display: flex;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.movies-gallery__title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.film-name {
+    text-align: center;
+}
+
+.star-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.star-btn button {
+    cursor: pointer;
+}
+
+.film-year {
+    text-align: center;
+}
+
+.img {
+    width: 70%;
+    height: 50%;
+    background: #80808036;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.row {
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.movies-gallery {
+    display: block;
+    margin-right: 10px;
+    background: aliceblue;
+    width: 900px;
+}
+
+.favorite-list {
+    width: 300px;
+    background: aliceblue;
+}
+
+.movies-gallery__items {
+    padding: 10px;
+}
+
+.movies-gallery__item {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background: #fff;
+}
+
+.favorite-list__logo img {
+    height: 50px;
+    display: inline-block;
+}
+
+.favorite-list__logo {
+    display: inline-block;
+}
+
+.fav-list {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.fav-list-wrapper {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.fav-list-items__trash {
+    margin-left: 15px;
+}
+
+.none {
+    display: none;
+}
+
+
